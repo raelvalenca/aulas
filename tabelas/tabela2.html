@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela completa</title>
+
+    <style>
+    table,
+    th{
+        border: 1px solid  #000;
+        border-collapse: collapse;
+    }
+
+    .titulo {
+        background-color: aqua;
+    }
+
+th {
+    border: 2px; #000;
+}
+
+    th {
+        padding: 5px;
+    }
+
+    </style>
+</head>
+<body>
+  <table>
+<caption>
+    titulo da tabela
+</caption>
+<thead>
+    <tr>
+        <th class="titulo">mes</th>
+        <th class="titulo">serviço</th>
+        <th class="titulo">valor</th>
+    </tr>
+</thead>
+
+<tbody>
+    <tr>
+        <td>janeiro</td>
+        <td>consultoria</td>
+        <td>R$ 2.000</td>
+    </tr>
+
+    <tr>
+        <td rowspan="2">fevereiro</td>
+        <td>desenvolvimento</td>
+        <td>R$ 8.000</td>
+    </tr>
+
+    <tr>
+        <td>suporte</td>
+        <td>R$ 3.000</td>
+    </tr>
+
+    <tr>
+        <td >março</td>
+        <td >front-end</td>
+        <td >R$ 9.000</td>
+    </tr>
+</tbody>
+
+<tfoot>
+    <tr>
+         <th class="titulo 2" colspan="2">Total</th>
+         <th> R$15.000</th>
+
+    </tr>
+</tfoot>
+
+  </table> 
+</body>
+</html>
