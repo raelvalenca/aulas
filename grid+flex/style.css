@@ -1,0 +1,124 @@
+
+.container {
+    width: 90%;
+    margin: 25 auto;
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+grid-template-areas:
+"body"
+"main"
+"container1"
+"div1"
+"container2"
+"div2"
+"container3"
+"div3"
+"container4"
+"div4"
+"container5"
+"div5"
+;
+  }
+
+  body {
+    grid-area:body ;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+main {
+    grid-area:main ;
+    position: relative;
+    width: 90%;
+    border: 2px solid black;
+}
+
+
+  #container1 {
+    grid-area:container1 ;
+    position: relative;
+    width: 100%;
+    height: 80px;
+}
+
+#div1 {
+    grid-area:div1 ;
+    position: relative;
+    width: 100%;
+    height: 80px;
+    background-color: #ff1f39;
+    text-align: center;
+    padding-top: 5px;
+}
+
+#container2 {
+    grid-area:container2 ;
+    position: relative;
+    width: 100%;
+    height: 40px;
+}
+
+#div2 {
+    grid-area:div2 ;
+    position: relative;
+    width: 100%;
+    height: 40px;
+    background-color: #00c2e0;
+}
+
+#container3 {
+    grid-area:container3 ;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+
+#div3 {
+    grid-area:div3 ;
+    position: relative;
+    width: 30%;
+    height: 400px;
+    background-color: green;
+}
+
+#container4 {
+    grid-area: container4;
+    position: relative;
+    width: 100%;
+    height: 40px;
+}
+
+#div4 {
+    grid-area: div4;
+    position: relative;
+    width: 70%;
+    height: 400px;
+    background-color: yellow;
+}
+
+
+
+
+#div5 {
+    grid-area: div5;
+    position: relative;
+    width: 100%;
+    height: 40px;
+    background-color: gray;
+    text-align: center;
+    padding-top: 5px;
+ }
+
+
+
+
+
+
+
+
+
